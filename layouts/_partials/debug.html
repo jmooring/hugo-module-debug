@@ -1,5 +1,5 @@
 {{ with resources.Get "js/debug.js" }}
-  {{ with resources.ExecuteAsTemplate now.UnixNano $ . }}
+  {{ with resources.ExecuteAsTemplate (printf "js/debug/%d.js" now.UnixNano) $ . }}
     <script src="{{ .RelPermalink }}"></script>
   {{ end }}
 {{ end }}
