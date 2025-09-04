@@ -8,9 +8,11 @@ This Hugo module displays debug information in the browser console including:
 - Site parameters
 - Miscellaneous information
 
-Requires Hugo v0.146.0 or later.
+For example:
 
 ![screen capture](screen-capture.png)
+
+Requires Hugo v0.146.0 or later.
 
 ## Configuration
 
