@@ -10,6 +10,8 @@ This Hugo module displays debug information in the browser console including:
 
 Requires Hugo v0.146.0 or later.
 
+![screen capture](screen-capture.png)
+
 ## Configuration
 
 To add this module to your project, initialize your project as a Hugo module:
