@@ -8,7 +8,7 @@ This Hugo module displays debug information in the browser console including:
 - Site parameters
 - Miscellaneous information
 
-Requires Hugo v0.14 or later.
+Requires Hugo v0.146.0 or later.
 
 ## Configuration
 
@@ -36,6 +36,8 @@ Place this template code within the `head` element of your base template:
   {{ partial "debug.html" . }}
 {{ end }}
 ```
+
+Then run `hugo server` and view the browser console.
 
 ## Try it
 
