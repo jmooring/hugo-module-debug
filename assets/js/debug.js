@@ -132,12 +132,18 @@ console.log('MainSections: {{ .Site.MainSections}}');
 console.log('Menus: {{ .Site.Menus}}');
 console.log('Pages: {{ .Site.Pages }}');
 console.log('RegularPages: {{ .Site.RegularPages }}');
-console.log('Role: {{ .Site.Role }}');
+console.groupCollapsed('Role');
+  console.log('Role.IsDefault: {{ .Site.Role.IsDefault }}');
+  console.log('Role.Name: {{ .Site.Role.Name }}');
+console.groupEnd();
 console.log('Sections: {{ .Site.Sections }}');
 console.log('Sites: {{ .Site.Sites }}');
 console.log('Taxonomies: {{ .Site.Taxonomies }}');
 console.log('Title: {{ .Site.Title }}');
-console.log('Version: {{ .Site.Version }}');
+console.groupCollapsed('Version');
+  console.log('Version.IsDefault: {{ .Site.Version.IsDefault }}');
+  console.log('Version.Name: {{ .Site.Version.Name }}');
+console.groupEnd();
 console.groupEnd();
 
 // Page params.
