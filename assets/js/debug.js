@@ -132,10 +132,12 @@ console.log('MainSections: {{ .Site.MainSections}}');
 console.log('Menus: {{ .Site.Menus}}');
 console.log('Pages: {{ .Site.Pages }}');
 console.log('RegularPages: {{ .Site.RegularPages }}');
+console.log('Role: {{ .Site.Role }}');
 console.log('Sections: {{ .Site.Sections }}');
 console.log('Sites: {{ .Site.Sites }}');
 console.log('Taxonomies: {{ .Site.Taxonomies }}');
 console.log('Title: {{ .Site.Title }}');
+console.log('Version: {{ .Site.Version }}');
 console.groupEnd();
 
 // Page params.
