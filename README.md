@@ -12,7 +12,7 @@ For example:
 
 ![screen capture](screen-capture.png)
 
-Requires Hugo v0.146.0 or later.
+Requires Hugo v0.158.0 or later.
 
 ## Configuration
 
