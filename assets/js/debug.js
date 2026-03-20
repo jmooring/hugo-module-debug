@@ -111,7 +111,6 @@ console.groupEnd();
 
 console.groupCollapsed('SITE METHODS');
 console.log('BaseURL: {{ .Site.BaseURL }}');
-console.log('BuildDrafts: {{ .Site.BuildDrafts }}');
 console.groupCollapsed('Config');
   console.log(`{{ .Site.Config | jsonify (dict "indent" "  ") }}`);
 console.groupEnd();
@@ -136,7 +135,6 @@ console.groupCollapsed('Role');
   console.log('Role.Name: {{ .Site.Role.Name }}');
 console.groupEnd();
 console.log('Sections: {{ .Site.Sections }}');
-console.log('Sites: {{ .Site.Sites }}');
 console.log('Taxonomies: {{ .Site.Taxonomies }}');
 console.log('Title: {{ .Site.Title }}');
 console.groupCollapsed('Version');
