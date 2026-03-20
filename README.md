@@ -1,5 +1,10 @@
 # Hugo Module &ndash; Debug
 
+> [!note]
+> As of March 20, 2026, an [open Chromium bug][] prevents child groups from being hidden when the parent group is collapsed. To view the correct hierarchy, expand the ancestor groups of any visible descendant group.
+
+[open Chromium bug]: https://issues.chromium.org/issues/445202458
+
 This Hugo module displays debug information in the browser console including:
 
 - Output from the available Page methods
