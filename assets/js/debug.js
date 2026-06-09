@@ -63,8 +63,8 @@ console.log('FuzzyWordCount: {{ .FuzzyWordCount }}');
     console.log('GitInfo.Subject: {{ .GitInfo.Subject }}');
   console.groupEnd();
 {{ end }}
+console.log('IsBranch: {{ .IsBranch }}');
 console.log('IsHome: {{ .IsHome }}');
-console.log('IsNode: {{ .IsNode }}');
 console.log('IsPage: {{ .IsPage }}');
 console.log('IsSection: {{ .IsSection }}');
 console.log('IsTranslated: {{ .IsTranslated }}');
